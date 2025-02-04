@@ -8,9 +8,7 @@ const items = [
 </script>
 
 <template>
-  <main>
-    <ItemCard v-for="item in items" :key="item.name" :item="item" />
-  </main>
+  <ItemCard v-for="item in items" :key="item.name" />
   <header>
     <div class="wrapper">
       <nav>
