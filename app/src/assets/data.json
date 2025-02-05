@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Poké Ball",
+      "image": "url_to_pokeball_image",
+      "price": "$200"
+    },
+    {
+      "name": "Great Ball",
+      "image": "url_to_greatball_image",
+      "price": "$600"
+    },
+    {
+      "name": "Ultra Ball",
+      "image": "url_to_ultraball_image",
+      "price": "$1200"
+    },
+    {
+      "name": "Master Ball",
+      "image": "url_to_masterball_image",
+      "price": "$5000"
+    },
+    {
+      "name": "Potion",
+      "image": "url_to_potion_image",
+      "price": "$300"
+    },
+    {
+      "name": "Super Potion",
+      "image": "url_to_superpotion_image",
+      "price": "$700"
+    },
+    {
+      "name": "Hyper Potion",
+      "image": "url_to_hyperpotion_image",
+      "price": "$1500"
+    },
+    {
+      "name": "Max Potion",
+      "image": "url_to_maxpotion_image",
+      "price": "$2500"
+    },
+    {
+      "name": "Revive",
+      "image": "url_to_revive_image",
+      "price": "$1500"
+    },
+    {
+      "name": "Max Revive",
+      "image": "url_to_maxrevive_image",
+      "price": "$3000"
+    },
+    {
+      "name": "Antidote",
+      "image": "url_to_antidote_image",
+      "price": "$100"
+    },
+    {
+      "name": "Paralyze Heal",
+      "image": "url_to_paralyzeheal_image",
+      "price": "$200"
+    },
+    {
+      "name": "Burn Heal",
+      "image": "url_to_burnheal_image",
+      "price": "$300"
+    },
+    {
+      "name": "Full Restore",
+      "image": "url_to_fullrestore_image",
+      "price": "$3000"
+    }
+  ]
+  

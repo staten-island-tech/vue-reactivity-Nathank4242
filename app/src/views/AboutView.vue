@@ -1,14 +1,8 @@
-<script>
+<script setup>
 import ItemCard from '../components/ItemCard.vue'
-
-const items = [
-  { name: 'number1', other: 'other1' },
-  { name: 'number2', other: 'other2' },
-]
+import items from '../assets/data.json'
 </script>
-
 <template>
-  <ItemCard v-for="item in items" :key="item.name" />
   <header>
     <div class="wrapper">
       <nav>
@@ -17,7 +11,7 @@ const items = [
     </div>
   </header>
   <div class="about flex justify-center bg-cyan-200">
-    <h1>Welcome to the page</h1>
+    <h1>Welcome to Pokemon Center Item Shop</h1>
   </div>
   <RouterView />
   <button
@@ -25,6 +19,7 @@ const items = [
   >
     Button
   </button>
+  <ItemCard v-for="item in items" :key="item.name" :item="item" />
 </template>
 
 <style>
