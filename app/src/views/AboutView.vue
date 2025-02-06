@@ -17,9 +17,11 @@ import items from '../assets/data.json'
   <button
     class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
   >
-    Button
+    Nothing button
   </button>
-  <ItemCard v-for="item in items" :key="item.name" :item="item" />
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+    <ItemCard v-for="item in items" :key="item.name" :item="item" />
+  </div>
 </template>
 
 <style>
