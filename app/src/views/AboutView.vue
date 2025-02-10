@@ -20,7 +20,13 @@ import items from '../assets/data.json'
     Nothing button
   </button>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
-    <ItemCard v-for="item in items" :key="item.name" :item="item" />
+    <ItemCard v-for="item in items" :key="item.name" :item="item" @click="console.log(item.name)" />
+  </div>
+
+  <div
+    class="fixed top-0 right-0 w-80 h-full bg-gray-100 border-l-4 border-gray-600 p-4 overflow-y-auto"
+  >
+    <h1 class="text-center text-2xl font-bold mb-6">Cart</h1>
   </div>
 </template>
 

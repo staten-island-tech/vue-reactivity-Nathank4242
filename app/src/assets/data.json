@@ -1,72 +1,72 @@
 [
     {
       "name": "Poké Ball",
-      "image": "url_to_pokeball_image",
+      "image": "../poke-ball.png",
       "price": "$200"
     },
     {
       "name": "Great Ball",
-      "image": "url_to_greatball_image",
+      "image": "../great-ball.png",
       "price": "$600"
     },
     {
       "name": "Ultra Ball",
-      "image": "url_to_ultraball_image",
+      "image": "../ultra-ball.png",
       "price": "$1200"
     },
     {
       "name": "Master Ball",
-      "image": "url_to_masterball_image",
+      "image": "../master-ball.png",
       "price": "$5000"
     },
     {
       "name": "Potion",
-      "image": "url_to_potion_image",
+      "image": "../potion.png",
       "price": "$300"
     },
     {
       "name": "Super Potion",
-      "image": "url_to_superpotion_image",
+      "image": "../super-potion.png",
       "price": "$700"
     },
     {
       "name": "Hyper Potion",
-      "image": "url_to_hyperpotion_image",
+      "image": "../hyper-potion.png",
       "price": "$1500"
     },
     {
       "name": "Max Potion",
-      "image": "url_to_maxpotion_image",
+      "image": "../max-potion.png",
       "price": "$2500"
     },
     {
       "name": "Revive",
-      "image": "url_to_revive_image",
+      "image": "../revive.png",
       "price": "$1500"
     },
     {
       "name": "Max Revive",
-      "image": "url_to_maxrevive_image",
+      "image": "../max-revive.png",
       "price": "$3000"
     },
     {
       "name": "Antidote",
-      "image": "url_to_antidote_image",
+      "image": "../antidote.png",
       "price": "$100"
     },
     {
       "name": "Paralyze Heal",
-      "image": "url_to_paralyzeheal_image",
+      "image": "../paralyze-heal.png",
       "price": "$200"
     },
     {
       "name": "Burn Heal",
-      "image": "url_to_burnheal_image",
+      "image": "../burn-heal.png",
       "price": "$300"
     },
     {
       "name": "Full Restore",
-      "image": "url_to_fullrestore_image",
+      "image": "../full-restore.png",
       "price": "$3000"
     }
   ]
