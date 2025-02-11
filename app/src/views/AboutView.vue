@@ -19,8 +19,18 @@ import items from '../assets/data.json'
   >
     Nothing button
   </button>
+
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
-    <ItemCard v-for="item in items" :key="item.name" :item="item" @click="console.log(item.name)" />
+    <ItemCard v-for="item in items" :key="item.name" :item="item" @click="console.log(item.name)"
+      ><button
+        type="button"
+        class="btn bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700"
+        id="add"
+        @click="console.log(item.name)"
+      >
+        Add To Cart
+      </button></ItemCard
+    >
   </div>
 
   <div
