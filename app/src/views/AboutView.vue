@@ -1,5 +1,6 @@
 <script setup>
 import ItemCard from '../components/ItemCard.vue'
+// import ShopCard from '../components/ShopCard.vue'
 import items from '../assets/data.json'
 </script>
 <template>
