@@ -1,7 +1,23 @@
 <template>
-  <div class="Cart-Card border-indigo-600 box-border min-h-max w-64 p-4 border-8 m-8">
-    <h2 class="card-name text-blue-600 text-xl">{{ item.name }}</h2>
-    <slot></slot>
+  <div class="cart-item border-b-2 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <div>
+        <span class="font-semibold">{{ item.name }}</span
+        ><br />
+        <span class="text-gray-500 text-sm">{{ item.price }}</span>
+      </div>
+
+      <div>
+        <span class="text-gray-700">Quantity: {{ item.quantity }}</span>
+      </div>
+    </div>
+
+    <button
+      class="text-white bg-red-500 hover:bg-red-600 rounded-md px-4 py-2 text-xs font-semibold transition-all duration-300 ml-4"
+      @click="removeItem(item)"
+    >
+      Remove
+    </button>
   </div>
 </template>
 
@@ -9,6 +25,17 @@
 defineProps({
   item: Object,
 })
+
+const emit = defineEmits()
+
+const removeItem = (item) => {
+  emit('remove', item)
+}
 </script>
 
-<style scoped></style>
+<style scoped>
+.cart-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+</style>
