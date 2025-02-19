@@ -33,6 +33,11 @@ const getTotalPrice = () => {
     return total + itemPrice * cartItem.quantity
   }, 0)
 }
+
+// New computed property to get the total number of items in the cart
+const getTotalItems = () => {
+  return cart.reduce((total, cartItem) => total + cartItem.quantity, 0)
+}
 </script>
 
 <template>
@@ -78,6 +83,8 @@ const getTotalPrice = () => {
       </div>
 
       <div v-if="cart.length > 0" class="text-center mt-6 font-bold">
+        <p>Total Items: {{ getTotalItems() }}</p>
+        <!-- Display total items -->
         <p>Total Price: ${{ getTotalPrice() }}</p>
       </div>
     </div>
