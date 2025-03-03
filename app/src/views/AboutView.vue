@@ -25,7 +25,6 @@ import items from '../assets/data.json'
           type="button"
           class="btn bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700 w-full"
           id="add"
-          @click="console.log(item.name)"
         >
           Add To Cart
         </button>
