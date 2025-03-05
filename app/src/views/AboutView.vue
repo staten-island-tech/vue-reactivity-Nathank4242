@@ -34,7 +34,7 @@ const getTotalPrice = () => {
   }, 0)
 }
 
-// New computed property to get the total number of items in the cart
+//math stuff 
 const getTotalItems = () => {
   return cart.reduce((total, cartItem) => total + cartItem.quantity, 0)
 }
